@@ -20,7 +20,7 @@ function App() {
     setdata(res.products);
     // console.log(res);
   };
-  console.log(count)
+  // console.log(count)
   return (
     <div className="App" style={{ display: "flex", flexWrap: "wrap" }}>
       {data.map((v, i) => {
