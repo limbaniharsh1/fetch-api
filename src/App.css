@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+.i-box{
+ height: 200px;
+ max-width: 100%;
+ margin: 0 auto;
+ /* height: auto; */
+ text-align: center;
+}
+.i-box img{
+  height: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.main{
+  padding: 20px;
+}
+.m-border{
+  border: none !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.089);
+  padding: 20px 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+  /* height: 600px; */
+}
+.m-border:hover{
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.089);
+}
+.m-border h2{
+  font-size: 18px;
+  margin-top: 21px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+p{
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 400;
+  color: rgba(71, 71, 71, 0.671);
+}
+h3{
+  text-align: left;
+  color:#2b7ac4;
+  font-weight: 300 !important;
+  border-bottom: 1px solid rgb(46, 46, 46);
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+h6{
+  text-align: left;
+  margin: 10px 0px !important;
+  color: rgba(0, 0, 0, 0.692);
+}
+.m-border .buy-btn{
+  background-color: #2b7ac4;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  /* cursor: pointer; */
+  transition: 0.5s;
+}
+.m-border .buy-btn:hover{
+  background-color: #1d65a8;
+}
+.cart-btn{
+  color: #2b7ac4;
+  height: 40px;
+  border: none;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  /* cursor: pointer !important; */
+  transition: 0.5s;
+}
+.cart-btn:hover{
+  background-color: #2b7ac41a;
+}
+.m-btn{
+  /* padding: 0 !important; */
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+button{
+  background-color: #2b7ac4;
+  border: none;
+  color: white;
+}
+.ar-left,.ar-right{
+  border-radius: 50px;
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  /* display: none; */
+}
+.ar-left{
+  left: 10px;
+}
+.ar-right{
+  right: 10px;
+}
